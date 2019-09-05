@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="KGk-i7-Jjw" customClass="firstTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="351" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kefu" translatesAutoresizingMaskIntoConstraints="NO" id="qFr-Qw-wxM">
+                        <rect key="frame" x="17" y="15" width="14" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="14" id="TRC-FA-bW1"/>
+                            <constraint firstAttribute="height" constant="18" id="toa-9a-BkI"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="所在地址 : 四川省 成都市 都江堰市 永丰街道办" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSp-sc-IEd">
+                        <rect key="frame" x="41" y="15.5" width="310" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="01c-F0-G6m">
+                        <rect key="frame" x="0.0" y="49.5" width="351" height="10"/>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="WkW-6f-hE2"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7o2-iH-NIS">
+                        <rect key="frame" x="0.0" y="0.0" width="351" height="10"/>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="C70-dd-OeJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="01c-F0-G6m" secondAttribute="trailing" id="6JK-83-wn8"/>
+                    <constraint firstItem="qFr-Qw-wxM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="9Wh-92-qsh"/>
+                    <constraint firstItem="7o2-iH-NIS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Dff-op-Ppa"/>
+                    <constraint firstItem="7o2-iH-NIS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="FWK-FJ-sGa"/>
+                    <constraint firstItem="NSp-sc-IEd" firstAttribute="centerY" secondItem="qFr-Qw-wxM" secondAttribute="centerY" id="UwM-HO-1C6"/>
+                    <constraint firstAttribute="bottom" secondItem="01c-F0-G6m" secondAttribute="bottom" id="YFP-4j-70c"/>
+                    <constraint firstAttribute="trailing" secondItem="7o2-iH-NIS" secondAttribute="trailing" id="YND-4u-nrZ"/>
+                    <constraint firstItem="qFr-Qw-wxM" firstAttribute="top" secondItem="7o2-iH-NIS" secondAttribute="bottom" constant="5" id="fBA-pi-pEJ"/>
+                    <constraint firstItem="NSp-sc-IEd" firstAttribute="leading" secondItem="qFr-Qw-wxM" secondAttribute="trailing" constant="10" id="nV2-C8-Avc"/>
+                    <constraint firstItem="01c-F0-G6m" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rxM-KA-5YK"/>
+                    <constraint firstAttribute="trailing" secondItem="NSp-sc-IEd" secondAttribute="trailing" id="sEo-pi-8tQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="148.55072463768118" y="150"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="kefu" width="12.5" height="12.5"/>
+    </resources>
+</document>

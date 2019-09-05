@@ -17,6 +17,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+        UIStoryboard *main = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        self.mainTab = [main instantiateViewControllerWithIdentifier:@"TabBarView"];
+        self.mainTab.selectedIndex = 0;
+    
+       ((AppDelegate *)[UIApplication sharedApplication].delegate).window.rootViewController = self.mainTab;
+       // self.window.rootViewController = self.mainTab;
+        self.window.backgroundColor = [UIColor whiteColor];
+        [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

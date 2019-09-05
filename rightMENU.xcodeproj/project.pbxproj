@@ -15,6 +15,24 @@
 		3177E33623209E05005ACF45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3177E33523209E05005ACF45 /* main.m */; };
 		3177E34023209E05005ACF45 /* rightMENUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3177E33F23209E05005ACF45 /* rightMENUTests.m */; };
 		3177E34B23209E05005ACF45 /* rightMENUUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3177E34A23209E05005ACF45 /* rightMENUUITests.m */; };
+		3177E35A2320A150005ACF45 /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3177E3592320A150005ACF45 /* homeViewController.m */; };
+		3177E35D2320A161005ACF45 /* mineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3177E35C2320A161005ACF45 /* mineViewController.m */; };
+		3177E3602320A1FB005ACF45 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3177E35F2320A1FA005ACF45 /* MainNavigationController.m */; };
+		3177E3632320A2EA005ACF45 /* MainTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3177E3622320A2EA005ACF45 /* MainTabbarViewController.m */; };
+		31B88D5A2320AFBA007A506A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B88D582320AFBA007A506A /* DetailViewController.m */; };
+		31B88D5B2320AFBA007A506A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31B88D592320AFBA007A506A /* DetailViewController.xib */; };
+		31B88D622320DB30007A506A /* firstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B88D602320DB30007A506A /* firstTableViewCell.m */; };
+		31B88D632320DB30007A506A /* firstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31B88D612320DB30007A506A /* firstTableViewCell.xib */; };
+		31B88D672320DB45007A506A /* secondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B88D652320DB45007A506A /* secondTableViewCell.m */; };
+		31B88D682320DB45007A506A /* secondTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31B88D662320DB45007A506A /* secondTableViewCell.xib */; };
+		31B88D6B2320DBAF007A506A /* headerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B88D6A2320DBAF007A506A /* headerView.m */; };
+		31B88D6D2320DBC8007A506A /* headerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31B88D6C2320DBC8007A506A /* headerView.xib */; };
+		31B88D712320ECA9007A506A /* thridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B88D6F2320ECA9007A506A /* thridTableViewCell.m */; };
+		31B88D722320ECA9007A506A /* thridTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31B88D702320ECA9007A506A /* thridTableViewCell.xib */; };
+		31B88D762320F64C007A506A /* fourTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B88D742320F64C007A506A /* fourTableViewCell.m */; };
+		31B88D772320F64C007A506A /* fourTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31B88D752320F64C007A506A /* fourTableViewCell.xib */; };
+		31B88D7D23210D3A007A506A /* zeroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B88D7B23210D3A007A506A /* zeroTableViewCell.m */; };
+		31B88D7E23210D3A007A506A /* zeroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31B88D7C23210D3A007A506A /* zeroTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +69,37 @@
 		3177E34623209E05005ACF45 /* rightMENUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rightMENUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3177E34A23209E05005ACF45 /* rightMENUUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rightMENUUITests.m; sourceTree = "<group>"; };
 		3177E34C23209E05005ACF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3177E3582320A150005ACF45 /* homeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeViewController.h; sourceTree = "<group>"; };
+		3177E3592320A150005ACF45 /* homeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeViewController.m; sourceTree = "<group>"; };
+		3177E35B2320A161005ACF45 /* mineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mineViewController.h; sourceTree = "<group>"; };
+		3177E35C2320A161005ACF45 /* mineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mineViewController.m; sourceTree = "<group>"; };
+		3177E35E2320A1FA005ACF45 /* MainNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		3177E35F2320A1FA005ACF45 /* MainNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		3177E3612320A2EA005ACF45 /* MainTabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabbarViewController.h; sourceTree = "<group>"; };
+		3177E3622320A2EA005ACF45 /* MainTabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabbarViewController.m; sourceTree = "<group>"; };
+		31B88D572320AFBA007A506A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		31B88D582320AFBA007A506A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		31B88D592320AFBA007A506A /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		31B88D5F2320DB30007A506A /* firstTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstTableViewCell.h; sourceTree = "<group>"; };
+		31B88D602320DB30007A506A /* firstTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstTableViewCell.m; sourceTree = "<group>"; };
+		31B88D612320DB30007A506A /* firstTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = firstTableViewCell.xib; sourceTree = "<group>"; };
+		31B88D642320DB45007A506A /* secondTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondTableViewCell.h; sourceTree = "<group>"; };
+		31B88D652320DB45007A506A /* secondTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondTableViewCell.m; sourceTree = "<group>"; };
+		31B88D662320DB45007A506A /* secondTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = secondTableViewCell.xib; sourceTree = "<group>"; };
+		31B88D692320DBAF007A506A /* headerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headerView.h; sourceTree = "<group>"; };
+		31B88D6A2320DBAF007A506A /* headerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = headerView.m; sourceTree = "<group>"; };
+		31B88D6C2320DBC8007A506A /* headerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = headerView.xib; sourceTree = "<group>"; };
+		31B88D6E2320ECA9007A506A /* thridTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thridTableViewCell.h; sourceTree = "<group>"; };
+		31B88D6F2320ECA9007A506A /* thridTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = thridTableViewCell.m; sourceTree = "<group>"; };
+		31B88D702320ECA9007A506A /* thridTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = thridTableViewCell.xib; sourceTree = "<group>"; };
+		31B88D732320F64C007A506A /* fourTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fourTableViewCell.h; sourceTree = "<group>"; };
+		31B88D742320F64C007A506A /* fourTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fourTableViewCell.m; sourceTree = "<group>"; };
+		31B88D752320F64C007A506A /* fourTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = fourTableViewCell.xib; sourceTree = "<group>"; };
+		31B88D782320FB51007A506A /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		31B88D792320FC18007A506A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		31B88D7A23210D3A007A506A /* zeroTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zeroTableViewCell.h; sourceTree = "<group>"; };
+		31B88D7B23210D3A007A506A /* zeroTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zeroTableViewCell.m; sourceTree = "<group>"; };
+		31B88D7C23210D3A007A506A /* zeroTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = zeroTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +150,8 @@
 		3177E32523209E03005ACF45 /* rightMENU */ = {
 			isa = PBXGroup;
 			children = (
+				31B88D532320AEAE007A506A /* base */,
+				31B88D542320AEC0007A506A /* class */,
 				3177E32623209E03005ACF45 /* AppDelegate.h */,
 				3177E32723209E03005ACF45 /* AppDelegate.m */,
 				3177E32923209E03005ACF45 /* ViewController.h */,
@@ -110,6 +161,8 @@
 				3177E33123209E05005ACF45 /* LaunchScreen.storyboard */,
 				3177E33423209E05005ACF45 /* Info.plist */,
 				3177E33523209E05005ACF45 /* main.m */,
+				31B88D782320FB51007A506A /* Header.h */,
+				31B88D792320FC18007A506A /* PrefixHeader.pch */,
 			);
 			path = rightMENU;
 			sourceTree = "<group>";
@@ -130,6 +183,89 @@
 				3177E34C23209E05005ACF45 /* Info.plist */,
 			);
 			path = rightMENUUITests;
+			sourceTree = "<group>";
+		};
+		31B88D532320AEAE007A506A /* base */ = {
+			isa = PBXGroup;
+			children = (
+				3177E3612320A2EA005ACF45 /* MainTabbarViewController.h */,
+				3177E3622320A2EA005ACF45 /* MainTabbarViewController.m */,
+				3177E35E2320A1FA005ACF45 /* MainNavigationController.h */,
+				3177E35F2320A1FA005ACF45 /* MainNavigationController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		31B88D542320AEC0007A506A /* class */ = {
+			isa = PBXGroup;
+			children = (
+				31B88D552320AF33007A506A /* home */,
+				31B88D562320AF3F007A506A /* mine */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		31B88D552320AF33007A506A /* home */ = {
+			isa = PBXGroup;
+			children = (
+				31B88D5D2320DA8A007A506A /* model */,
+				31B88D5E2320DA92007A506A /* view */,
+				31B88D5C2320DA80007A506A /* controller */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		31B88D562320AF3F007A506A /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				3177E35B2320A161005ACF45 /* mineViewController.h */,
+				3177E35C2320A161005ACF45 /* mineViewController.m */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		31B88D5C2320DA80007A506A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				3177E3582320A150005ACF45 /* homeViewController.h */,
+				3177E3592320A150005ACF45 /* homeViewController.m */,
+				31B88D572320AFBA007A506A /* DetailViewController.h */,
+				31B88D582320AFBA007A506A /* DetailViewController.m */,
+				31B88D592320AFBA007A506A /* DetailViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		31B88D5D2320DA8A007A506A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		31B88D5E2320DA92007A506A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				31B88D5F2320DB30007A506A /* firstTableViewCell.h */,
+				31B88D602320DB30007A506A /* firstTableViewCell.m */,
+				31B88D612320DB30007A506A /* firstTableViewCell.xib */,
+				31B88D642320DB45007A506A /* secondTableViewCell.h */,
+				31B88D652320DB45007A506A /* secondTableViewCell.m */,
+				31B88D662320DB45007A506A /* secondTableViewCell.xib */,
+				31B88D692320DBAF007A506A /* headerView.h */,
+				31B88D6A2320DBAF007A506A /* headerView.m */,
+				31B88D6C2320DBC8007A506A /* headerView.xib */,
+				31B88D6E2320ECA9007A506A /* thridTableViewCell.h */,
+				31B88D6F2320ECA9007A506A /* thridTableViewCell.m */,
+				31B88D702320ECA9007A506A /* thridTableViewCell.xib */,
+				31B88D732320F64C007A506A /* fourTableViewCell.h */,
+				31B88D742320F64C007A506A /* fourTableViewCell.m */,
+				31B88D752320F64C007A506A /* fourTableViewCell.xib */,
+				31B88D7A23210D3A007A506A /* zeroTableViewCell.h */,
+				31B88D7B23210D3A007A506A /* zeroTableViewCell.m */,
+				31B88D7C23210D3A007A506A /* zeroTableViewCell.xib */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +371,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B88D6D2320DBC8007A506A /* headerView.xib in Resources */,
 				3177E33323209E05005ACF45 /* LaunchScreen.storyboard in Resources */,
 				3177E33023209E05005ACF45 /* Assets.xcassets in Resources */,
 				3177E32E23209E03005ACF45 /* Main.storyboard in Resources */,
+				31B88D5B2320AFBA007A506A /* DetailViewController.xib in Resources */,
+				31B88D772320F64C007A506A /* fourTableViewCell.xib in Resources */,
+				31B88D722320ECA9007A506A /* thridTableViewCell.xib in Resources */,
+				31B88D7E23210D3A007A506A /* zeroTableViewCell.xib in Resources */,
+				31B88D632320DB30007A506A /* firstTableViewCell.xib in Resources */,
+				31B88D682320DB45007A506A /* secondTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +406,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3177E32B23209E03005ACF45 /* ViewController.m in Sources */,
+				3177E35D2320A161005ACF45 /* mineViewController.m in Sources */,
+				3177E3602320A1FB005ACF45 /* MainNavigationController.m in Sources */,
+				31B88D672320DB45007A506A /* secondTableViewCell.m in Sources */,
+				31B88D6B2320DBAF007A506A /* headerView.m in Sources */,
+				31B88D7D23210D3A007A506A /* zeroTableViewCell.m in Sources */,
+				31B88D712320ECA9007A506A /* thridTableViewCell.m in Sources */,
+				31B88D5A2320AFBA007A506A /* DetailViewController.m in Sources */,
 				3177E33623209E05005ACF45 /* main.m in Sources */,
+				3177E3632320A2EA005ACF45 /* MainTabbarViewController.m in Sources */,
 				3177E32823209E03005ACF45 /* AppDelegate.m in Sources */,
+				31B88D762320F64C007A506A /* fourTableViewCell.m in Sources */,
+				3177E35A2320A150005ACF45 /* homeViewController.m in Sources */,
+				31B88D622320DB30007A506A /* firstTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +514,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = rightMENU/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -417,6 +573,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = rightMENU/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -436,7 +594,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T37F8AG74G;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				INFOPLIST_FILE = rightMENU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +613,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T37F8AG74G;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				INFOPLIST_FILE = rightMENU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
