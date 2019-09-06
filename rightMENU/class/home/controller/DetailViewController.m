@@ -12,10 +12,16 @@
 #import "thridTableViewCell.h"
 #import "zeroTableViewCell.h"
 #import "fourTableViewCell.h"
+#import "popChildView.h"
 
-@interface DetailViewController ()<UITableViewDelegate,UITableViewDataSource>
+
+
+@interface DetailViewController ()<UITableViewDelegate,UITableViewDataSource,JXCategoryViewDelegate,JXCategoryTitleViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *mainTabbleView;
 @property (weak, nonatomic) IBOutlet UIButton *refrshButton;
+@property (strong, nonatomic) popChildView *selectView;
+
+@property (strong, nonatomic) JXCategoryTitleView *categoryView;
 
 @end
 
@@ -82,13 +88,28 @@
 }
 
 -(void)setfooterView{
-    UIView *footerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 300)];
-    footerView.backgroundColor = [UIColor blueColor];
+    UIView *footerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 50)];
+    footerView.backgroundColor = [UIColor whiteColor];
     
     
-    UIImageView *footerImageView = [[UIImageView alloc] init];
-    footerImageView.frame = footerView.bounds;
-    [footerView addSubview:footerImageView];
+//    UIImageView *footerImageView = [[UIImageView alloc] init];
+//    footerImageView.frame = footerView.bounds;
+//    [footerView addSubview:footerImageView];
+    
+    self.categoryView = [[JXCategoryTitleView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 50)];
+    self.categoryView.delegate = self;
+    self.categoryView.titles = @[@"标的信息",@"竞拍公告",@"竞拍须知",@"竞拍记录"];
+    self.categoryView.titleSelectedColor = [UIColor greenColor];
+    self.categoryView.titleColorGradientEnabled = YES;
+    
+    
+    //添加指示器
+    JXCategoryIndicatorLineView *lineView = [[JXCategoryIndicatorLineView alloc] init];
+    lineView.indicatorColor = [UIColor greenColor];
+    lineView.indicatorWidth = JXCategoryViewAutomaticDimension;
+    self.categoryView.indicators = @[lineView];
+    [footerView addSubview:self.categoryView];
+    
     
     self.mainTabbleView.tableFooterView = footerView;
 }
@@ -142,6 +163,26 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
    
+}
+
+- (IBAction)paiMaiClick:(UIButton *)sender {
+    
+     [self showPopChildView];
+    //点击了拍卖师留言
+//    sender.selected = !sender.selected;
+//    if (sender.selected == YES) {
+//        [self showPopChildView];
+//    } else {
+//        [self.selectView removeView];
+//    }
+    
+}
+
+- (void)showPopChildView{
+    self.selectView = [[popChildView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+    
+    //显示
+    [self.selectView showInView:self.navigationController.view];
 }
 
 

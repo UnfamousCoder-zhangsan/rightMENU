@@ -46,7 +46,10 @@
                             <constraint firstAttribute="height" constant="25" id="MTp-o7-jUj"/>
                             <constraint firstAttribute="width" constant="25" id="xTC-Rt-8PB"/>
                         </constraints>
-                        <state key="normal" image="liuyan"/>
+                        <state key="normal" image="callimage"/>
+                        <connections>
+                            <action selector="callphoneButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="5kg-Bd-HYI"/>
+                        </connections>
                     </button>
                 </subviews>
                 <constraints>
@@ -68,6 +71,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="liuyan" width="12.5" height="12.5"/>
+        <image name="callimage" width="25" height="25"/>
     </resources>
 </document>

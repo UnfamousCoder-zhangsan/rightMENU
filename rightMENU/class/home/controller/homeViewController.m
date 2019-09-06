@@ -23,6 +23,7 @@
     
     
     DetailViewController *detailVC = [[DetailViewController alloc] init];
+    detailVC.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:detailVC animated:YES];
     //跳转到商品详情
 }

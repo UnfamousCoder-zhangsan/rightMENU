@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0550138A85ADDADB113C245C /* libPods-rightMENU.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 092EA5946C0D5184A41DD5CB /* libPods-rightMENU.a */; };
+		180E9E5023216960007A76D3 /* popChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E4F23216960007A76D3 /* popChildView.m */; };
+		180E9E542321763C007A76D3 /* popChildTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E522321763C007A76D3 /* popChildTableViewCell.m */; };
+		180E9E552321763C007A76D3 /* popChildTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180E9E532321763C007A76D3 /* popChildTableViewCell.xib */; };
 		3177E32823209E03005ACF45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3177E32723209E03005ACF45 /* AppDelegate.m */; };
 		3177E32B23209E03005ACF45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3177E32A23209E03005ACF45 /* ViewController.m */; };
 		3177E32E23209E03005ACF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3177E32C23209E03005ACF45 /* Main.storyboard */; };
@@ -53,6 +57,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092EA5946C0D5184A41DD5CB /* libPods-rightMENU.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rightMENU.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180E9E4E23216960007A76D3 /* popChildView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = popChildView.h; sourceTree = "<group>"; };
+		180E9E4F23216960007A76D3 /* popChildView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popChildView.m; sourceTree = "<group>"; };
+		180E9E512321763C007A76D3 /* popChildTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = popChildTableViewCell.h; sourceTree = "<group>"; };
+		180E9E522321763C007A76D3 /* popChildTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popChildTableViewCell.m; sourceTree = "<group>"; };
+		180E9E532321763C007A76D3 /* popChildTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = popChildTableViewCell.xib; sourceTree = "<group>"; };
+		2DD87B10A64EDB87C33A6797 /* Pods-rightMENU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rightMENU.release.xcconfig"; path = "Target Support Files/Pods-rightMENU/Pods-rightMENU.release.xcconfig"; sourceTree = "<group>"; };
 		3177E32323209E03005ACF45 /* rightMENU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rightMENU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3177E32623209E03005ACF45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3177E32723209E03005ACF45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,6 +111,7 @@
 		31B88D7A23210D3A007A506A /* zeroTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zeroTableViewCell.h; sourceTree = "<group>"; };
 		31B88D7B23210D3A007A506A /* zeroTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zeroTableViewCell.m; sourceTree = "<group>"; };
 		31B88D7C23210D3A007A506A /* zeroTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = zeroTableViewCell.xib; sourceTree = "<group>"; };
+		EC0FBC39C1834998DC1C9F2C /* Pods-rightMENU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rightMENU.debug.xcconfig"; path = "Target Support Files/Pods-rightMENU/Pods-rightMENU.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0550138A85ADDADB113C245C /* libPods-rightMENU.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +140,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DCC2505FDBCDA8009390B7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				092EA5946C0D5184A41DD5CB /* libPods-rightMENU.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3177E31A23209E03005ACF45 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +155,8 @@
 				3177E33E23209E05005ACF45 /* rightMENUTests */,
 				3177E34923209E05005ACF45 /* rightMENUUITests */,
 				3177E32423209E03005ACF45 /* Products */,
+				4AB99770565532F3C1AADA72 /* Pods */,
+				0DCC2505FDBCDA8009390B7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -264,8 +287,23 @@
 				31B88D7A23210D3A007A506A /* zeroTableViewCell.h */,
 				31B88D7B23210D3A007A506A /* zeroTableViewCell.m */,
 				31B88D7C23210D3A007A506A /* zeroTableViewCell.xib */,
+				180E9E4E23216960007A76D3 /* popChildView.h */,
+				180E9E4F23216960007A76D3 /* popChildView.m */,
+				180E9E512321763C007A76D3 /* popChildTableViewCell.h */,
+				180E9E522321763C007A76D3 /* popChildTableViewCell.m */,
+				180E9E532321763C007A76D3 /* popChildTableViewCell.xib */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		4AB99770565532F3C1AADA72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC0FBC39C1834998DC1C9F2C /* Pods-rightMENU.debug.xcconfig */,
+				2DD87B10A64EDB87C33A6797 /* Pods-rightMENU.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,9 +313,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3177E34F23209E05005ACF45 /* Build configuration list for PBXNativeTarget "rightMENU" */;
 			buildPhases = (
+				432E6069A0DE89660B6A498C /* [CP] Check Pods Manifest.lock */,
 				3177E31F23209E03005ACF45 /* Sources */,
 				3177E32023209E03005ACF45 /* Frameworks */,
 				3177E32123209E03005ACF45 /* Resources */,
+				633466EAA6960CC44EF6DD1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -379,6 +419,7 @@
 				31B88D772320F64C007A506A /* fourTableViewCell.xib in Resources */,
 				31B88D722320ECA9007A506A /* thridTableViewCell.xib in Resources */,
 				31B88D7E23210D3A007A506A /* zeroTableViewCell.xib in Resources */,
+				180E9E552321763C007A76D3 /* popChildTableViewCell.xib in Resources */,
 				31B88D632320DB30007A506A /* firstTableViewCell.xib in Resources */,
 				31B88D682320DB45007A506A /* secondTableViewCell.xib in Resources */,
 			);
@@ -400,6 +441,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		432E6069A0DE89660B6A498C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rightMENU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		633466EAA6960CC44EF6DD1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rightMENU/Pods-rightMENU-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rightMENU/Pods-rightMENU-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rightMENU/Pods-rightMENU-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3177E31F23209E03005ACF45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -413,7 +496,9 @@
 				31B88D7D23210D3A007A506A /* zeroTableViewCell.m in Sources */,
 				31B88D712320ECA9007A506A /* thridTableViewCell.m in Sources */,
 				31B88D5A2320AFBA007A506A /* DetailViewController.m in Sources */,
+				180E9E542321763C007A76D3 /* popChildTableViewCell.m in Sources */,
 				3177E33623209E05005ACF45 /* main.m in Sources */,
+				180E9E5023216960007A76D3 /* popChildView.m in Sources */,
 				3177E3632320A2EA005ACF45 /* MainTabbarViewController.m in Sources */,
 				3177E32823209E03005ACF45 /* AppDelegate.m in Sources */,
 				31B88D762320F64C007A506A /* fourTableViewCell.m in Sources */,
@@ -591,6 +676,7 @@
 		};
 		3177E35023209E05005ACF45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0FBC39C1834998DC1C9F2C /* Pods-rightMENU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -610,6 +696,7 @@
 		};
 		3177E35123209E05005ACF45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD87B10A64EDB87C33A6797 /* Pods-rightMENU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

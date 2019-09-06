@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface fourTableViewCell : UITableViewCell
-
+@property (copy, nonatomic) NSString *phoneString;
 @end
 
 NS_ASSUME_NONNULL_END
