@@ -10,6 +10,8 @@
 #define Header_h
 
 
+
+#define TESTURL  @"http://api.sczcgapp.com/api/v1/"
 /**
  *  屏幕高度
  */

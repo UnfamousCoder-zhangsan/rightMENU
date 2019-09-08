@@ -9,6 +9,7 @@
 #import "homeViewController.h"
 #import "DetailViewController.h"
 
+
 @interface homeViewController ()
 
 @end
@@ -22,10 +23,15 @@
 - (IBAction)detailView:(UIButton *)sender {
     
     
-    DetailViewController *detailVC = [[DetailViewController alloc] init];
-    detailVC.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:detailVC animated:YES];
+    DetailViewController *vc = [[DetailViewController alloc] init];
+    //testViewController *vc = [[testViewController alloc] init];
+    vc.hidesBottomBarWhenPushed = YES;
+    //[self.navigationController pushViewController:detailVC animated:YES];
     //跳转到商品详情
+    
+    vc.isNeedHeader = YES;
+    vc.listViewScrollStateSaveEnabled = YES;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 /*

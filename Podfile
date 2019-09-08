@@ -7,5 +7,9 @@ pod 'Masonry'
 pod 'WMPageController'
 pod 'MJRefresh'
 pod 'JXCategoryView'
+pod 'GKPageScrollView'
+pod 'JXPageView'
+pod 'MBProgressHUD'
+pod 'AFNetworking','~>3.1.0'
 
 end

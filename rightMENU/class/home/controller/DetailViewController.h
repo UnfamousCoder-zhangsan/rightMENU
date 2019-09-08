@@ -13,6 +13,12 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DetailViewController : UIViewController
 @property (strong, nonatomic) UIView                *backView;
 
+
+@property (nonatomic, assign) BOOL isNeedHeader;
+@property (nonatomic, assign) BOOL listViewScrollStateSaveEnabled;
+@property (nonatomic, assign) CGFloat pinCategoryViewVerticalOffset;
+@property (nonatomic, assign) BOOL isNeedScrollToBottom;
+
 @end
 
 NS_ASSUME_NONNULL_END

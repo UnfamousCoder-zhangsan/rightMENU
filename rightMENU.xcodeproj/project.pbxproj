@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,22 @@
 		180E9E5023216960007A76D3 /* popChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E4F23216960007A76D3 /* popChildView.m */; };
 		180E9E542321763C007A76D3 /* popChildTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E522321763C007A76D3 /* popChildTableViewCell.m */; };
 		180E9E552321763C007A76D3 /* popChildTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180E9E532321763C007A76D3 /* popChildTableViewCell.xib */; };
+		180E9E6123237E03007A76D3 /* JXPageListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E5B23237E03007A76D3 /* JXPageListView.m */; };
+		180E9E6223237E03007A76D3 /* JXPageListMainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E5E23237E03007A76D3 /* JXPageListMainTableView.m */; };
+		180E9E6323237E03007A76D3 /* JXPageListContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E5F23237E03007A76D3 /* JXPageListContainerView.m */; };
+		180E9E6623237F9A007A76D3 /* TestListBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E6523237F9A007A76D3 /* TestListBaseView.m */; };
+		180E9E692323802F007A76D3 /* TestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E672323802E007A76D3 /* TestTableView.m */; };
+		180E9E6D2323B482007A76D3 /* testTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E6B2323B482007A76D3 /* testTableViewCell.m */; };
+		180E9E6E2323B482007A76D3 /* testTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180E9E6C2323B482007A76D3 /* testTableViewCell.xib */; };
+		180E9E712323C8F4007A76D3 /* messageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E702323C8F4007A76D3 /* messageView.m */; };
+		180E9E762323FB86007A76D3 /* httpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E742323FB86007A76D3 /* httpTool.m */; };
+		180E9E822323FBAD007A76D3 /* NSObject+HCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E772323FBAC007A76D3 /* NSObject+HCCategory.m */; };
+		180E9E832323FBAD007A76D3 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E7B2323FBAD007A76D3 /* NetworkManager.m */; };
+		180E9E842323FBAD007A76D3 /* UIViewController+HCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E7C2323FBAD007A76D3 /* UIViewController+HCCategory.m */; };
+		180E9E852323FBAD007A76D3 /* RequestForms.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E7F2323FBAD007A76D3 /* RequestForms.m */; };
+		180E9E862323FBAD007A76D3 /* StatisticsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E812323FBAD007A76D3 /* StatisticsApi.m */; };
+		180E9E8D2324DD32007A76D3 /* testImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E9E8B2324DD32007A76D3 /* testImageTableViewCell.m */; };
+		180E9E8E2324DD32007A76D3 /* testImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180E9E8C2324DD32007A76D3 /* testImageTableViewCell.xib */; };
 		3177E32823209E03005ACF45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3177E32723209E03005ACF45 /* AppDelegate.m */; };
 		3177E32B23209E03005ACF45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3177E32A23209E03005ACF45 /* ViewController.m */; };
 		3177E32E23209E03005ACF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3177E32C23209E03005ACF45 /* Main.storyboard */; };
@@ -63,6 +79,37 @@
 		180E9E512321763C007A76D3 /* popChildTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = popChildTableViewCell.h; sourceTree = "<group>"; };
 		180E9E522321763C007A76D3 /* popChildTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popChildTableViewCell.m; sourceTree = "<group>"; };
 		180E9E532321763C007A76D3 /* popChildTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = popChildTableViewCell.xib; sourceTree = "<group>"; };
+		180E9E5B23237E03007A76D3 /* JXPageListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPageListView.m; sourceTree = "<group>"; };
+		180E9E5C23237E03007A76D3 /* JXPageListMainTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPageListMainTableView.h; sourceTree = "<group>"; };
+		180E9E5D23237E03007A76D3 /* JXPageListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPageListView.h; sourceTree = "<group>"; };
+		180E9E5E23237E03007A76D3 /* JXPageListMainTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPageListMainTableView.m; sourceTree = "<group>"; };
+		180E9E5F23237E03007A76D3 /* JXPageListContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPageListContainerView.m; sourceTree = "<group>"; };
+		180E9E6023237E03007A76D3 /* JXPageListContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPageListContainerView.h; sourceTree = "<group>"; };
+		180E9E6423237F9A007A76D3 /* TestListBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestListBaseView.h; sourceTree = "<group>"; };
+		180E9E6523237F9A007A76D3 /* TestListBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestListBaseView.m; sourceTree = "<group>"; };
+		180E9E672323802E007A76D3 /* TestTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableView.m; sourceTree = "<group>"; };
+		180E9E682323802F007A76D3 /* TestTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableView.h; sourceTree = "<group>"; };
+		180E9E6A2323B482007A76D3 /* testTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testTableViewCell.h; sourceTree = "<group>"; };
+		180E9E6B2323B482007A76D3 /* testTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTableViewCell.m; sourceTree = "<group>"; };
+		180E9E6C2323B482007A76D3 /* testTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = testTableViewCell.xib; sourceTree = "<group>"; };
+		180E9E6F2323C8F4007A76D3 /* messageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = messageView.h; sourceTree = "<group>"; };
+		180E9E702323C8F4007A76D3 /* messageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = messageView.m; sourceTree = "<group>"; };
+		180E9E742323FB86007A76D3 /* httpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = httpTool.m; sourceTree = "<group>"; };
+		180E9E752323FB86007A76D3 /* httpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = httpTool.h; sourceTree = "<group>"; };
+		180E9E772323FBAC007A76D3 /* NSObject+HCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HCCategory.m"; sourceTree = "<group>"; };
+		180E9E782323FBAC007A76D3 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		180E9E792323FBAD007A76D3 /* RequestForms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestForms.h; sourceTree = "<group>"; };
+		180E9E7A2323FBAD007A76D3 /* UIViewController+HCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HCCategory.h"; sourceTree = "<group>"; };
+		180E9E7B2323FBAD007A76D3 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		180E9E7C2323FBAD007A76D3 /* UIViewController+HCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HCCategory.m"; sourceTree = "<group>"; };
+		180E9E7D2323FBAD007A76D3 /* NetworkMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkMacro.h; sourceTree = "<group>"; };
+		180E9E7E2323FBAD007A76D3 /* NSObject+HCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HCCategory.h"; sourceTree = "<group>"; };
+		180E9E7F2323FBAD007A76D3 /* RequestForms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestForms.m; sourceTree = "<group>"; };
+		180E9E802323FBAD007A76D3 /* StatisticsApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsApi.h; sourceTree = "<group>"; };
+		180E9E812323FBAD007A76D3 /* StatisticsApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsApi.m; sourceTree = "<group>"; };
+		180E9E8A2324DD32007A76D3 /* testImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testImageTableViewCell.h; sourceTree = "<group>"; };
+		180E9E8B2324DD32007A76D3 /* testImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testImageTableViewCell.m; sourceTree = "<group>"; };
+		180E9E8C2324DD32007A76D3 /* testImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = testImageTableViewCell.xib; sourceTree = "<group>"; };
 		2DD87B10A64EDB87C33A6797 /* Pods-rightMENU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rightMENU.release.xcconfig"; path = "Target Support Files/Pods-rightMENU/Pods-rightMENU.release.xcconfig"; sourceTree = "<group>"; };
 		3177E32323209E03005ACF45 /* rightMENU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rightMENU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3177E32623209E03005ACF45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -148,6 +195,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		180E9E5923237DA6007A76D3 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				180E9E5A23237DC2007A76D3 /* PageListView */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		180E9E5A23237DC2007A76D3 /* PageListView */ = {
+			isa = PBXGroup;
+			children = (
+				180E9E6023237E03007A76D3 /* JXPageListContainerView.h */,
+				180E9E5F23237E03007A76D3 /* JXPageListContainerView.m */,
+				180E9E5C23237E03007A76D3 /* JXPageListMainTableView.h */,
+				180E9E5E23237E03007A76D3 /* JXPageListMainTableView.m */,
+				180E9E5D23237E03007A76D3 /* JXPageListView.h */,
+				180E9E5B23237E03007A76D3 /* JXPageListView.m */,
+			);
+			path = PageListView;
+			sourceTree = "<group>";
+		};
+		180E9E722323FAAA007A76D3 /* httpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				180E9E7D2323FBAD007A76D3 /* NetworkMacro.h */,
+				180E9E782323FBAC007A76D3 /* NetworkManager.h */,
+				180E9E7B2323FBAD007A76D3 /* NetworkManager.m */,
+				180E9E7E2323FBAD007A76D3 /* NSObject+HCCategory.h */,
+				180E9E772323FBAC007A76D3 /* NSObject+HCCategory.m */,
+				180E9E792323FBAD007A76D3 /* RequestForms.h */,
+				180E9E7F2323FBAD007A76D3 /* RequestForms.m */,
+				180E9E802323FBAD007A76D3 /* StatisticsApi.h */,
+				180E9E812323FBAD007A76D3 /* StatisticsApi.m */,
+				180E9E7A2323FBAD007A76D3 /* UIViewController+HCCategory.h */,
+				180E9E7C2323FBAD007A76D3 /* UIViewController+HCCategory.m */,
+				180E9E752323FB86007A76D3 /* httpTool.h */,
+				180E9E742323FB86007A76D3 /* httpTool.m */,
+			);
+			path = httpRequest;
+			sourceTree = "<group>";
+		};
 		3177E31A23209E03005ACF45 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +261,8 @@
 		3177E32523209E03005ACF45 /* rightMENU */ = {
 			isa = PBXGroup;
 			children = (
+				180E9E722323FAAA007A76D3 /* httpRequest */,
+				180E9E5923237DA6007A76D3 /* category */,
 				31B88D532320AEAE007A506A /* base */,
 				31B88D542320AEC0007A506A /* class */,
 				3177E32623209E03005ACF45 /* AppDelegate.h */,
@@ -250,11 +340,17 @@
 		31B88D5C2320DA80007A506A /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				180E9E6423237F9A007A76D3 /* TestListBaseView.h */,
+				180E9E6523237F9A007A76D3 /* TestListBaseView.m */,
+				180E9E682323802F007A76D3 /* TestTableView.h */,
+				180E9E672323802E007A76D3 /* TestTableView.m */,
 				3177E3582320A150005ACF45 /* homeViewController.h */,
 				3177E3592320A150005ACF45 /* homeViewController.m */,
 				31B88D572320AFBA007A506A /* DetailViewController.h */,
 				31B88D582320AFBA007A506A /* DetailViewController.m */,
 				31B88D592320AFBA007A506A /* DetailViewController.xib */,
+				180E9E6F2323C8F4007A76D3 /* messageView.h */,
+				180E9E702323C8F4007A76D3 /* messageView.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -292,6 +388,12 @@
 				180E9E512321763C007A76D3 /* popChildTableViewCell.h */,
 				180E9E522321763C007A76D3 /* popChildTableViewCell.m */,
 				180E9E532321763C007A76D3 /* popChildTableViewCell.xib */,
+				180E9E6A2323B482007A76D3 /* testTableViewCell.h */,
+				180E9E6B2323B482007A76D3 /* testTableViewCell.m */,
+				180E9E6C2323B482007A76D3 /* testTableViewCell.xib */,
+				180E9E8A2324DD32007A76D3 /* testImageTableViewCell.h */,
+				180E9E8B2324DD32007A76D3 /* testImageTableViewCell.m */,
+				180E9E8C2324DD32007A76D3 /* testImageTableViewCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -302,7 +404,6 @@
 				EC0FBC39C1834998DC1C9F2C /* Pods-rightMENU.debug.xcconfig */,
 				2DD87B10A64EDB87C33A6797 /* Pods-rightMENU.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -412,10 +513,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				31B88D6D2320DBC8007A506A /* headerView.xib in Resources */,
+				180E9E8E2324DD32007A76D3 /* testImageTableViewCell.xib in Resources */,
 				3177E33323209E05005ACF45 /* LaunchScreen.storyboard in Resources */,
 				3177E33023209E05005ACF45 /* Assets.xcassets in Resources */,
 				3177E32E23209E03005ACF45 /* Main.storyboard in Resources */,
 				31B88D5B2320AFBA007A506A /* DetailViewController.xib in Resources */,
+				180E9E6E2323B482007A76D3 /* testTableViewCell.xib in Resources */,
 				31B88D772320F64C007A506A /* fourTableViewCell.xib in Resources */,
 				31B88D722320ECA9007A506A /* thridTableViewCell.xib in Resources */,
 				31B88D7E23210D3A007A506A /* zeroTableViewCell.xib in Resources */,
@@ -489,21 +592,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				3177E32B23209E03005ACF45 /* ViewController.m in Sources */,
+				180E9E6323237E03007A76D3 /* JXPageListContainerView.m in Sources */,
 				3177E35D2320A161005ACF45 /* mineViewController.m in Sources */,
 				3177E3602320A1FB005ACF45 /* MainNavigationController.m in Sources */,
 				31B88D672320DB45007A506A /* secondTableViewCell.m in Sources */,
+				180E9E842323FBAD007A76D3 /* UIViewController+HCCategory.m in Sources */,
 				31B88D6B2320DBAF007A506A /* headerView.m in Sources */,
+				180E9E762323FB86007A76D3 /* httpTool.m in Sources */,
+				180E9E832323FBAD007A76D3 /* NetworkManager.m in Sources */,
 				31B88D7D23210D3A007A506A /* zeroTableViewCell.m in Sources */,
+				180E9E822323FBAD007A76D3 /* NSObject+HCCategory.m in Sources */,
 				31B88D712320ECA9007A506A /* thridTableViewCell.m in Sources */,
+				180E9E852323FBAD007A76D3 /* RequestForms.m in Sources */,
+				180E9E712323C8F4007A76D3 /* messageView.m in Sources */,
 				31B88D5A2320AFBA007A506A /* DetailViewController.m in Sources */,
+				180E9E862323FBAD007A76D3 /* StatisticsApi.m in Sources */,
+				180E9E6223237E03007A76D3 /* JXPageListMainTableView.m in Sources */,
 				180E9E542321763C007A76D3 /* popChildTableViewCell.m in Sources */,
 				3177E33623209E05005ACF45 /* main.m in Sources */,
+				180E9E8D2324DD32007A76D3 /* testImageTableViewCell.m in Sources */,
 				180E9E5023216960007A76D3 /* popChildView.m in Sources */,
+				180E9E692323802F007A76D3 /* TestTableView.m in Sources */,
 				3177E3632320A2EA005ACF45 /* MainTabbarViewController.m in Sources */,
+				180E9E6123237E03007A76D3 /* JXPageListView.m in Sources */,
 				3177E32823209E03005ACF45 /* AppDelegate.m in Sources */,
+				180E9E6623237F9A007A76D3 /* TestListBaseView.m in Sources */,
 				31B88D762320F64C007A506A /* fourTableViewCell.m in Sources */,
 				3177E35A2320A150005ACF45 /* homeViewController.m in Sources */,
 				31B88D622320DB30007A506A /* firstTableViewCell.m in Sources */,
+				180E9E6D2323B482007A76D3 /* testTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

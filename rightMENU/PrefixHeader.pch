@@ -13,7 +13,14 @@
 #import "Header.h"
 #import "JXCategoryView.h"
 #import "JXCategoryTitleView.h"
+#import <GKPageScrollView.h>
+#import "Masonry.h"
+#import <JXPageView/JXPageView.h>
+#import "NetworkManager.h"
+#import "RequestForms.h"
+#import <AFNetworking.h>
 
+#import <GKPageScrollView.h>
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
