@@ -28,8 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)instance;
 
 /** 设置中心控制器及左侧视图
- * @param centerViewController: 中心控制器
- * @param leftView: 左侧视图
+ * @param centerViewController 中心控制器
+ * @param leftView 左侧视图
  */
 - (void)installCenterViewController:(UIViewController *)centerViewController leftView:(UIView *)leftView;
 
