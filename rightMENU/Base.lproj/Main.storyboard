@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -47,7 +46,11 @@
                         <viewLayoutGuide key="safeArea" id="52y-m0-lgh"/>
                     </view>
                     <navigationItem key="navigationItem" id="iNJ-U8-La1">
-                        <barButtonItem key="rightBarButtonItem" title="menu" id="GSQ-BT-Rl1"/>
+                        <barButtonItem key="rightBarButtonItem" title="menu" id="GSQ-BT-Rl1">
+                            <connections>
+                                <action selector="menuClick:" destination="ws2-cB-FAd" id="Vya-0i-sWf"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BRc-pL-gDa" userLabel="First Responder" sceneMemberID="firstResponder"/>

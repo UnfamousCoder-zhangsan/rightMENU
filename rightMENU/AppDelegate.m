@@ -7,6 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "MainTabbarViewController.h"
+#import "mineViewController.h"
+#import "MainTabbarViewController.h"
+#import "rightView.h"
+#import "UIView+rightView.h"
+#import "MNDrawerManager.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +24,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    rightView *right = [[rightView alloc] initWithFrame:CGRectMake(- self.window.width * (1 - kLeftWidthScale), 0, self.window.width, self.window.height)];
+    
+    
+    MainTabbarViewController *tabBarVC = [[MainTabbarViewController alloc] init];
+    
+    [[MNDrawerManager instance] installCenterViewController:tabBarVC leftView:right];
+    
         UIStoryboard *main = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         self.mainTab = [main instantiateViewControllerWithIdentifier:@"TabBarView"];
         self.mainTab.selectedIndex = 0;
@@ -26,8 +41,14 @@
         self.window.backgroundColor = [UIColor whiteColor];
         [self.window makeKeyAndVisible];
     
+    
+    
+    //rightView *rightView= [[rightView alloc] initW];
+    
     return YES;
 }
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

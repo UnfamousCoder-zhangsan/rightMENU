@@ -39,7 +39,7 @@
         self.tableView.delegate = self;
         [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
         [self addSubview:self.tableView];
-        
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         regist_nib(self.tableView, testTableViewCell);
         regist_nib(self.tableView, testImageTableViewCell);
     }

@@ -7,8 +7,11 @@
 //
 
 #import "MainTabbarViewController.h"
+#import "homeViewController.h"
+#import "mineViewController.h"
+#import "MNDrawerManager.h"
 
-@interface MainTabbarViewController ()
+@interface MainTabbarViewController ()<UITabBarControllerDelegate>
 
 @end
 
@@ -21,14 +24,17 @@
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor blueColor]} forState:UIControlStateSelected];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void) tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+    UINavigationController *navigationController = (UINavigationController *)viewController;
+    UIViewController *_viewController = navigationController.viewControllers.firstObject;
+    
+    // 如果选中消息页，响应拖拽手势，可以显示侧边栏
+    // 否则取消手势响应，不能显示侧边栏
+    if ([_viewController isKindOfClass:[homeViewController class]]) {
+        [[MNDrawerManager instance] beginDragResponse];
+    } else {
+        [[MNDrawerManager instance] cancelDragResponse];
+    }
 }
-*/
 
 @end

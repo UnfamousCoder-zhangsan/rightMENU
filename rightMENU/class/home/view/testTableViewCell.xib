@@ -37,14 +37,27 @@
                         <color key="textColor" red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jbd-Tp-0cy">
+                        <rect key="frame" x="15" y="41.5" width="290" height="1"/>
+                        <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="BRn-QT-gdH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
                     <constraint firstItem="raZ-zS-m5S" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="2wt-56-BTE"/>
                     <constraint firstItem="qkN-f3-DKZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="38" id="6KJ-wi-4if"/>
+                    <constraint firstAttribute="bottom" secondItem="Jbd-Tp-0cy" secondAttribute="bottom" constant="1" id="8DS-my-1Py"/>
                     <constraint firstAttribute="trailing" secondItem="jW9-u4-HE2" secondAttribute="trailing" constant="40" id="dtN-o7-d1V"/>
                     <constraint firstItem="qkN-f3-DKZ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="pvv-MV-lCm"/>
                     <constraint firstItem="raZ-zS-m5S" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="rLF-DB-1BJ"/>
+                    <constraint firstAttribute="trailing" secondItem="Jbd-Tp-0cy" secondAttribute="trailing" constant="15" id="uxb-rw-Iwb"/>
                     <constraint firstItem="jW9-u4-HE2" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="wLi-fQ-FRt"/>
+                    <constraint firstItem="Jbd-Tp-0cy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="wXs-jP-jnP"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>

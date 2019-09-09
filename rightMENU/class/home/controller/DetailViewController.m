@@ -140,6 +140,7 @@ static const CGFloat JXPageheightForHeaderInSection = 50;
 //    self.mainTabbleView.delegate = self;
 //    self.mainTabbleView.separatorStyle = UITableViewCellSeparatorStyleNone;
 //    self.mainTabbleView.backgroundColor = [UIColor whiteColor];
+    self.pageListView.mainTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     regist_nib(self.pageListView.mainTableView, zeroTableViewCell);
     regist_nib(self.pageListView.mainTableView, firstTableViewCell);
     regist_nib(self.pageListView.mainTableView, secondTableViewCell);
